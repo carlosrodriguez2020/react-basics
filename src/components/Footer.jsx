@@ -1,9 +1,5 @@
 const Footer = ({fecha}) => {
 
-
-
-
-
     return (
         <>
             <h2>Desde el Footer</h2>
