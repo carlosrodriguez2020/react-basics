@@ -112,15 +112,14 @@ const App = () => {
           <h1>Hola mundo</h1>
           <p>Hola mundo se encuentra en app.js, donde se renderizan los demas components</p>
         <div className="carritoCompraMuestra">
-
           <div >
             {renderProducts() }
           </div>
           <div>
             <h5>Elements cart {cart.count} </h5>
             {renderCart()}
+          </div>
         </div>
-     </div>
 
         <Footer fecha={fecha}/>
       </div>
